@@ -8,6 +8,43 @@ var btnJ = document.getElementById('btnJ');
 var btnK = document.getElementById('btnK');
 var btnL = document.getElementById('btnL');
 
+btnA.addEventListener('click',()=>{
+    soundA.play();
+    btnA.style.backgroundColor = 'Yellow';
+})
+btnS.addEventListener('click',()=>{
+    soundS.play();
+    btnS.style.backgroundColor = 'Yellow';
+})
+btnD.addEventListener('click',()=>{
+    soundD.play();
+    btnD.style.backgroundColor = 'Yellow';
+})
+btnF.addEventListener('click',()=>{
+    soundF.play();
+    btnF.style.backgroundColor = 'Yellow';
+})
+btnG.addEventListener('click',()=>{
+    soundG.play();
+    btnG.style.backgroundColor = 'Yellow';
+})
+btnH.addEventListener('click',()=>{
+    soundH.play();
+    btnH.style.backgroundColor = 'Yellow';
+})
+btnJ.addEventListener('click',()=>{
+    soundJ.play();
+    btnJ.style.backgroundColor = 'Yellow';
+})
+btnK.addEventListener('click',()=>{
+    soundK.play();
+    btnK.style.backgroundColor = 'Yellow';
+})
+btnL.addEventListener('click',()=>{
+    soundL.play();
+    btnL.style.backgroundColor = 'Yellow';
+})
+
 var soundA = document.getElementById('soundA');
 var soundS = document.getElementById('soundS');
 var soundD = document.getElementById('soundD');
