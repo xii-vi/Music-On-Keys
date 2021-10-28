@@ -1,0 +1,17 @@
+body{
+    background-image: url("/image/saso-tusar-QtgGYlug6Cw-unsplash.jpg");
+}
+.alpha{
+padding: 2rem 2rem;
+margin: 2rem 2rem;
+width: auto;
+height: auto;
+font-size: xx-large;
+border-radius: 0.5rem;
+}
+
+.divStyle{
+text-align: center;
+padding-top: 20rem;
+padding-bottom: 20rem;
+}

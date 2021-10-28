@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Keyboard</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div>
+        <audio src="/sound/boom.wav" type="audio/wav" id="soundA"> </audio>
+        <audio src="/sound/clap.wav" type="audio/wav" id="soundS"> </audio>
+        <audio src="/sound/hihat.wav" type="audio/wav" id="soundD"> </audio>
+        <audio src="/sound/kick.wav" type="audio/wav" id="soundF"> </audio>
+        <audio src="/sound/openhat.wav" type="audio/wav" id="soundG"> </audio>
+        <audio src="/sound/ride.wav" type="audio/wav" id="soundH"> </audio>
+        <audio src="/sound/snare.wav" type="audio/wav" id="soundJ"> </audio>
+        <audio src="/sound/tink.wav" type="audio/wav" id="soundK"> </audio>
+        <audio src="/sound/tom.wav" type="audio/wav" id="soundL"> </audio>
+        
+    </div>
+    <div class="divStyle">
+        <input type="button" value="A" class="alpha" id="btnA">
+        <input type="button" value="S" class="alpha" id="btnS">
+        <input type="button" value="D" class="alpha" id="btnD">
+        <input type="button" value="F" class="alpha" id="btnF">
+        <input type="button" value="G" class="alpha" id="btnG">
+        <input type="button" value="H" class="alpha" id="btnH">
+        <input type="button" value="J" class="alpha" id="btnJ">
+        <input type="button" value="K" class="alpha" id="btnK">
+        <input type="button" value="L" class="alpha" id="btnL">
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
