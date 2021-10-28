@@ -11,38 +11,110 @@ var btnL = document.getElementById('btnL');
 btnA.addEventListener('click',()=>{
     soundA.play();
     btnA.style.backgroundColor = 'Yellow';
+    btnS.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnS.addEventListener('click',()=>{
     soundS.play();
     btnS.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnD.addEventListener('click',()=>{
     soundD.play();
     btnD.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnS.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnF.addEventListener('click',()=>{
     soundF.play();
     btnF.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnS.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnG.addEventListener('click',()=>{
     soundG.play();
     btnG.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnS.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnH.addEventListener('click',()=>{
     soundH.play();
     btnH.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnS.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnJ.addEventListener('click',()=>{
     soundJ.play();
     btnJ.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnS.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnK.addEventListener('click',()=>{
     soundK.play();
     btnK.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnS.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnL.style.backgroundColor = '';
 })
 btnL.addEventListener('click',()=>{
     soundL.play();
     btnL.style.backgroundColor = 'Yellow';
+    btnA.style.backgroundColor = '';
+    btnS.style.backgroundColor = '';
+    btnD.style.backgroundColor = '';
+    btnF.style.backgroundColor = '';
+    btnG.style.backgroundColor = '';
+    btnH.style.backgroundColor = '';
+    btnJ.style.backgroundColor = '';
+    btnK.style.backgroundColor = '';
 })
 
 var soundA = document.getElementById('soundA');
